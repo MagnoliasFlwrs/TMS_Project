@@ -1,0 +1,108 @@
+.prices__info {
+    max-width: calc(1170px + 15px * 2);
+    padding: 0 15px;
+    height: 900px;
+    margin: 0 auto;
+}
+.prices__tittle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    text-align: center;
+    margin: 54px 0;
+}
+.prices__description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    text-align: center;
+    margin: 40px 0 59px;
+}
+.prices__options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 530px;
+}
+.prices__option__offers {
+    width: 370px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    list-style: none; 
+    align-items: flex-end;
+}
+.price__option__tarif {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    background-color: #333333;
+    border: 2px solid #F5F5F5;
+    height: 60px;
+    width: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.price__option__cost {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    background-color: #333333;
+    border: 2px solid #F5F5F5;
+    height: 100px;
+    width: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.price__option__free {
+    width: 370px;
+    height: 50px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    border: 2px solid #F5F5F5;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.price__option {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    border: 2px solid #F5F5F5;
+    background-color: #FFFFFF;
+    height: 50px;
+    width: 370px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active {
+    box-shadow: 0px 4px 10px #33333333;
+    align-self: flex-start;
+}
