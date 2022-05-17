@@ -1,0 +1,93 @@
+.tabs {
+    max-width: calc(1170px + 15px*2);
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.tabs__menu--btn--active {
+    width: 203px;
+    height: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: 0;
+    color: #333333;
+    background-color: transparent;
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: none;
+}
+.tabs__menu--btn {
+    width: 184px;
+    height: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #C6CBCD;
+}
+.empty {
+    width: calc(100% - 203px - 184px*2);
+    height: 40px;
+    border: none;
+    border-bottom:1px solid #C6CBCD;
+    vertical-align: bottom;
+}
+.tabs__menu {
+    list-style: none;
+    font-size: 0;
+}
+.tabs__menu > li {
+    display: inline-block;
+}
+.tabs__info__tittle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: start;
+    color: #000000;
+    
+}
+.tabs__info__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-align: start;
+}
+.tabs__download {
+    width: 270px;
+    height: 58px;
+    border: none;
+    background-color: #EC7979;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    margin-top: 27px;
+}
+.tabs__info {
+    border: 1px solid #C6CBCD;
+    border-top: none;
+    text-align: end;
+}
+.tabs__about {
+    max-width: 570px;
+    width: 100%;
+    margin: 42px 0 0;
+    vertical-align: top;
+    display: inline-block;
+    text-align: start;
+}
