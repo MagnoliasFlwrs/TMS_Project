@@ -1,6 +1,7 @@
 @import url(./tabs.css);
 @import url(./awesome.css);
 @import url(./prices.css);
+@import url(./reviews.css);
 
 * {
     margin: 0;
