@@ -1,8 +1,9 @@
 .tabs {
-    max-width: calc(1170px + 15px*2);
-    padding: 0 15px;
-    margin: 0 auto;
+    padding: 99px 0 50px;
+    min-height: 100vh;
+    background-color: #fff;
 }
+
 .tabs__menu--btn--active {
     width: 203px;
     height: 40px;

@@ -1,8 +1,6 @@
-.prices__info {
-    max-width: calc(1170px + 15px * 2);
-    padding: 104px 15px 0;
-    height: 900px;
-    margin: 0 auto;
+.prices {
+    padding: 104px 0 50px;
+    min-height: 100vh;
     background-color: #F5F5F5;
 }
 .prices__tittle {
