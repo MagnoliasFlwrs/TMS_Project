@@ -21,6 +21,7 @@
     z-index: 10;
 }
 .banner__tittle {
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -42,6 +43,7 @@
     margin: 42px 0;
 }
 .banner__button {
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
