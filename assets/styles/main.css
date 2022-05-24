@@ -3,6 +3,7 @@
 @import url(./prices.css);
 @import url(./reviews.css);
 @import url(./header.css);
+@import url(./banner.css);
 
 * {
     margin: 0;
