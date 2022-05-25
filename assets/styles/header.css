@@ -1,0 +1,24 @@
+.header {
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 0 0 0 50px;
+}
+.nav__link:last-child {
+    margin: 0 30px 0 50px;
+}

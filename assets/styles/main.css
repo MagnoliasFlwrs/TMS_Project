@@ -2,6 +2,7 @@
 @import url(./awesome.css);
 @import url(./prices.css);
 @import url(./reviews.css);
+@import url(./header.css);
 
 * {
     margin: 0;
