@@ -1,0 +1,23 @@
+.footer {
+    background-color: #000000;
+    padding: 40px 0 27px;
+    width: 100%;
+}
+.footer__icon {
+    margin: 0 22px;
+    text-align: center;
+}
+.footer__copyright {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin: 33px 0 0;
+}
+.footer__icons {
+    display: flex;
+    justify-content: center;
+}

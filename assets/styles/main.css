@@ -4,6 +4,7 @@
 @import url(./reviews.css);
 @import url(./header.css);
 @import url(./banner.css);
+@import url(./footer.css);
 
 * {
     margin: 0;
