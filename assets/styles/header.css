@@ -1,18 +1,15 @@
 .header {
-    padding: 22px 0;
     background-color: #000000;
-}
-.cont {
     position: sticky;
-    z-index: 9999;
     top: 0;
-    left: 0;
+    z-index: 9999;
+}
+.box {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .nav__link {
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
