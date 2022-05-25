@@ -1,11 +1,10 @@
 .awesome {
-    max-width: calc(1170px + 15px*2);
-    padding: 0 15px;
-    height: 665px;
-    margin: 0 auto;
+    padding: 54px 0 58px;
+    min-height: 100vh;
+    background-color: #FFFFFF;
 }
 .awesome__tittle {
-    margin: 104px 0 54px;
+    margin: 0 0 54px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
