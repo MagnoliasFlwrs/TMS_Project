@@ -7,6 +7,9 @@
     margin: 0 auto;
     padding: 208px 0 185px;
     position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .banner::after {
     content: "";
@@ -36,6 +39,7 @@
     margin-left: 0;
 }
 .banner__description {
+    max-width: 270px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -57,4 +61,8 @@
     border: 2px solid #FFFFFF;
     background-color: transparent;
     color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
 }
