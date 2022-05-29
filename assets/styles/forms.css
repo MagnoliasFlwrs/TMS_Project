@@ -29,6 +29,7 @@
     height: 210px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .user__info {
     display: flex;
@@ -76,8 +77,6 @@
     text-transform: capitalize;
     color: #FFFFFF;
     margin: 50px auto 0;
-    position: relative;
-    left: calc(50% - 185px);
 }
 .contact__box {
     position: relative;
