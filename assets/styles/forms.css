@@ -1,7 +1,7 @@
 .contact {
     padding: 104px 0 50px;
     background-color: #FFFFFF;
-    height: 100vh;
+    min-height: 100vh;
 }
 .contact__tittle {
     color: #000000;
