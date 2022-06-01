@@ -1,0 +1,35 @@
+.social__media {
+    padding: 14px 0 18px;
+    background-color: #F8EFEF;
+}
+.social__media__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social__media__tittle{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #333333;
+    margin: 0 0 32px;
+}
+.social__media__description {
+    max-width: 470px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+.social__media__links {
+    display: flex;
+    align-items: flex-end;
+}
+.social__media__link:not(:last-child) {
+    margin: 0 45px 0 0;
+}
