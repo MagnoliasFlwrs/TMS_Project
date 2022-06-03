@@ -41,6 +41,7 @@
     height: 210px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
+    resize: none;
 }
 .contact__userinfo {
     width: 571px;
