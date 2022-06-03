@@ -46,7 +46,7 @@
 .tabs__menu > li {
     display: inline-block;
 }
-.tabs__info__tittle {
+.tabs__about__tittle {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -56,7 +56,7 @@
     color: #000000;
     
 }
-.tabs__info__text {
+.tabs__about__text {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -91,4 +91,81 @@
     vertical-align: top;
     display: inline-block;
     text-align: start;
+}
+@media (max-width: 1024px) {
+    .tabs {
+        padding: 50px 0;
+    }
+    .tabs__menu--btn--active {
+        width: 170px;
+    }
+    .tabs__menu--btn {
+        width: 156px;
+    }
+    .empty {
+        width: calc(100% - 170px - 156px*2); 
+    }
+    .tabs__about__tittle {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .tabs__about__text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .tabs__download {
+        width: 232px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .tabs__image {
+        width: 398px;
+        height: 385px;
+    }
+    .tabs__about {
+        margin-left: 84px;
+        max-width: 482px;
+    }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    .tabs__image {
+        display: none;
+    }
+    .empty {
+        width: calc(100% - 100px - 93px*2); 
+    }
+    .tabs__menu--btn--active {
+        width: 100px;
+    }
+    .tabs__menu--btn {
+        width: 93px;
+    }
+    .tabs__about__tittle {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .tabs__about__text {
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: 29px;
+        text-align: center;
+    }
+    .tabs__download {
+        width: 242px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .tabs__about {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+    }
+    .tabs__info {
+        padding: 31px 20px 30px 24px;
+    }
 }
