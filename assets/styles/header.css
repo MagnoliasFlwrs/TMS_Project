@@ -28,7 +28,7 @@
 .header__menu {
     display: none;
 }
-@media (min-width: 320px) and (max-width: 768px){
+@media (max-width: 768px){
     .header__nav {
         display: none;
     }

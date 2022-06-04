@@ -169,7 +169,7 @@
         line-height: 25px;
     }
 }
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .banner {
         padding: 84px 0 50px;
     }
@@ -200,7 +200,7 @@
         line-height: 42px;
     }
     .banner__line {
-        width: 134px;
+        max-width: 134px;
         margin: 0 auto;
     }
     .banner__description {
@@ -208,7 +208,7 @@
         line-height: 16px;
     }
     .banner__button {
-        width: 288px;
+        max-width: 288px;
         height: 50px;
         font-size: 18px;
         line-height: 25px;

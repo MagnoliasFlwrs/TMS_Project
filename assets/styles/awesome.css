@@ -90,6 +90,10 @@ hr {
         justify-content: space-between;
         width: 288px;
         height: 318px;
+        margin: 0 auto;
+    }
+    .awesome__about:not(:last-child) {
+        margin-bottom: 43px;
     }
     .awesome__tittle {
         font-size: 18px;

@@ -36,8 +36,7 @@
     justify-content: space-between;
 }
 .review{
-    max-width: 370px;
-    width: 100%;
+    width: 370px;
 }
 
 .review__subject__text {
@@ -137,4 +136,114 @@
     text-align: center;
     text-transform: capitalize;
     margin: 0 auto;
+}
+.review__switcher {
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    left: 50%;
+    display: none;
+}
+@media (max-width: 1024px) {
+    .reviews__info__tittle , .design__tittle {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .reviews__info__description , .review__subject__text , .review__autor__name__subtittle , .design__description {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .reviews__info__description {
+        margin: 32px 0;
+    }
+    .project__line {
+        width: 142px;
+    }
+    .review__subject {
+        max-width: 317px;
+    }
+    .review__autor__name__tittle , .design__btn {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .review__autor__image {
+        width: 63px;
+        height: 63px;
+    }
+    .design {
+        padding: 96px 0 50px;
+    }
+    .design__btn {
+        width: 318px;
+    }
+}
+@media (max-width: 768px) {
+    .project__line {
+        max-width: 134px;
+    }
+    .review__switcher {
+        display: block;
+    }
+    .review__subject {
+        padding: 50px 15px ;
+        width: 288px; 
+    }
+    .review {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 288px;
+        height: 100%;
+    }
+    .review__container {
+        overflow: hidden;
+        width: 400%;
+        height: 100%;
+    }
+    .switch {
+        width: 25%;
+        display: flex;
+        transition: all 0.6s ease;
+    }
+    .review__autor {
+        max-width: 42px 0 0;
+    }
+    .review__subject  {
+        padding: 50px 15px ;
+    }
+    .review__subject__text , .design__description {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .review__autor__image {
+        width: 57px;
+        height: 57px;
+    }
+    .review__autor__name__tittle {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .review__autor__name__subtittle {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .design {
+        padding: 46px 0 58px;
+        background-image: url(../images/reviews/adapt.png);
+        background-size: cover;
+    }
+    .design__tittle {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 62px;
+    }
+    .project__line {
+        width: 134px;
+    }
+    .design__btn {
+        width: 287px;
+        height: 50px;
+    }
+    .design__description {
+        margin: 16px 0 66px;
+    }
 }
