@@ -106,3 +106,62 @@
     box-shadow: 0px 4px 10px #33333333;
     align-self: flex-start;
 }
+@media (max-width: 1024px) {
+    .prices__tittle {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .project__line {
+        width: 143px;
+    }
+    .prices__description {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .price__option__tarif {
+        font-size: 24px;
+        line-height: 33px;
+        max-width: 317px;
+    }
+    .price__option__cost {
+        font-size: 36px;
+        line-height: 42px;
+        max-width: 317px;
+    }
+    .price__option__free , .price__option {
+        font-size: 18px;
+        line-height: 21px;
+        max-width: 317px;
+    }
+    .prices__option__offers {
+        max-width: 317px;
+        height: 453px;
+    }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    .price__option__tarif {
+        font-size: 18px;
+        line-height: 25px;
+        max-width: 288px;
+    }
+    .price__option__cost {
+        font-size: 24px;
+        line-height: 28px;
+        max-width: 288px;
+    }
+    .price__option__free , .price__option {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 288px;
+    }
+    .prices__options {
+        flex-direction: column;
+    }
+    .prices__option__offers {
+        max-width: 288px;
+        height: 400px;
+    }
+    .prices__option__offers:not(:last-child) {
+        margin-bottom: 27px;
+    }
+}
