@@ -21,3 +21,25 @@
     display: flex;
     justify-content: center;
 }
+@media (max-width: 1024px) {
+    .footer {
+        padding: 35px 0 30px;
+    }
+    .footer__icon {
+        width: 45px;
+        height: 45px;
+    }
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .footer {
+        padding: 37px 0 45px; 
+    }
+    .footer__icon {
+        width: 26px;
+        height: 26px;
+    }
+}
