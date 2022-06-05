@@ -34,7 +34,7 @@
     height: 510px;
     display: flex;
     flex-direction: column;
-    list-style: none; 
+    list-style: none;
     align-items: flex-end;
 }
 .price__option__tarif {
@@ -47,11 +47,11 @@
     background-color: #333333;
     border: 2px solid #F5F5F5;
     height: 60px;
-    width: 370px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 .price__option__cost {
     font-family: 'Raleway';
@@ -63,14 +63,14 @@
     background-color: #333333;
     border: 2px solid #F5F5F5;
     height: 100px;
-    width: 370px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 .price__option__free {
-    width: 370px;
+    width: 100%;
     height: 50px;
     font-family: 'Raleway';
     font-style: normal;
@@ -83,7 +83,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 .price__option {
     font-family: 'Raleway';
@@ -95,7 +95,7 @@
     border: 2px solid #F5F5F5;
     background-color: #FFFFFF;
     height: 50px;
-    width: 370px;
+    width: 100%;
     vertical-align: middle;
     display: flex;
     align-items: center;
@@ -120,17 +120,14 @@
     .price__option__tarif {
         font-size: 24px;
         line-height: 33px;
-        max-width: 317px;
     }
     .price__option__cost {
         font-size: 36px;
         line-height: 42px;
-        max-width: 317px;
     }
     .price__option__free , .price__option {
         font-size: 18px;
         line-height: 21px;
-        max-width: 317px;
     }
     .prices__option__offers {
         max-width: 317px;
@@ -150,17 +147,14 @@
     .price__option__tarif {
         font-size: 18px;
         line-height: 25px;
-        max-width: 288px;
     }
     .price__option__cost {
         font-size: 24px;
         line-height: 28px;
-        max-width: 288px;
     }
     .price__option__free , .price__option {
         font-size: 14px;
         line-height: 16px;
-        max-width: 288px;
     }
     .prices__options {
         flex-direction: column;

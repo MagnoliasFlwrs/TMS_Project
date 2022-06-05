@@ -61,7 +61,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none; 
+    text-decoration: none;
 }
 .form {
     width: 470px;
@@ -83,7 +83,7 @@
     text-align: center;
     text-transform: uppercase;
     color: #333333;
-    
+
 }
 .word {
     color: #EC7979;
@@ -129,11 +129,11 @@
     border: none;
     position: relative;
     left: -50px;
-    
+
 }
 @media (max-width: 1024px) {
     .banner {
-        padding: 137px 20px 106px 0;
+        padding: 137px 0 106px;
     }
     .logo:first-child {
         width: 69px;

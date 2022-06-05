@@ -23,12 +23,11 @@ input , textarea {
 }
 @media (max-width: 1024px) {
     .content {
-        max-width: calc(992px + 16px*2);
+        padding: 16px;
     }
 }
 @media (max-width: 768px) {
     .content {
-        max-width: calc(100% - 16px*2);
         padding: 16px;
     }
 }

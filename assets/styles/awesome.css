@@ -82,7 +82,7 @@ hr {
         height: 79px;
     }
 }
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .awesome__about {
         display: flex;
         flex-direction: column;

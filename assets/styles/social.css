@@ -47,8 +47,8 @@
         line-height: 16px;
     }
     .social__media__link > svg {
-        width: 85%;
-        height: 85%;
+        width: 64px;
+        height: 64px;
     }
     .social__media__links {
         margin-left: 38px;
@@ -68,8 +68,8 @@
         margin-bottom: 34px;
     }
     .social__media__link > svg {
-        width: 55%;
-        height: 55%;
+        width: 26px;
+        height: 26px;
     }
     .social__media__link:not(:last-child) {
         margin: 0 22px 0 0;
