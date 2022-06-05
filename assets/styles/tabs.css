@@ -54,7 +54,7 @@
     line-height: 41px;
     text-align: start;
     color: #000000;
-    
+
 }
 .tabs__about__text {
     font-family: 'Raleway';
@@ -103,7 +103,7 @@
         width: 156px;
     }
     .empty {
-        width: calc(100% - 170px - 156px*2); 
+        width: calc(100% - 170px - 156px*2);
     }
     .tabs__about__tittle {
         font-size: 24px;
@@ -123,8 +123,13 @@
         height: 385px;
     }
     .tabs__about {
-        margin-left: 84px;
         max-width: 482px;
+        margin-left: 20px;
+    }
+    .tabs__info {
+        text-align: none;
+        display: flex;
+        justify-content: space-between;
     }
 }
 @media (max-width: 768px) {
@@ -132,7 +137,7 @@
         display: none;
     }
     .empty {
-        width: calc(100% - 100px - 93px*2); 
+        width: calc(100% - 100px - 93px*2);
     }
     .tabs__menu--btn--active {
         max-width: 100px;
