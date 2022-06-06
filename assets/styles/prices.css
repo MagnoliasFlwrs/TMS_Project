@@ -28,14 +28,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 530px;
 }
 .prices__option__offers {
     width: 370px;
     height: 510px;
     display: flex;
     flex-direction: column;
-    list-style: none; 
+    list-style: none;
     align-items: flex-end;
 }
 .price__option__tarif {
@@ -48,11 +47,11 @@
     background-color: #333333;
     border: 2px solid #F5F5F5;
     height: 60px;
-    width: 370px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 .price__option__cost {
     font-family: 'Raleway';
@@ -64,14 +63,14 @@
     background-color: #333333;
     border: 2px solid #F5F5F5;
     height: 100px;
-    width: 370px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 .price__option__free {
-    width: 370px;
+    width: 100%;
     height: 50px;
     font-family: 'Raleway';
     font-style: normal;
@@ -84,7 +83,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 .price__option {
     font-family: 'Raleway';
@@ -96,7 +95,7 @@
     border: 2px solid #F5F5F5;
     background-color: #FFFFFF;
     height: 50px;
-    width: 370px;
+    width: 100%;
     vertical-align: middle;
     display: flex;
     align-items: center;
@@ -105,4 +104,66 @@
 .prices__option__offers:hover {
     box-shadow: 0px 4px 10px #33333333;
     align-self: flex-start;
+}
+@media (max-width: 1024px) {
+    .prices__tittle {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .project__line {
+        width: 143px;
+    }
+    .prices__description {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .price__option__tarif {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .price__option__cost {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .price__option__free , .price__option {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .prices__option__offers {
+        max-width: 317px;
+        height: 453px;
+    }
+}
+@media (max-width: 768px) {
+    .prices {
+        padding: 46px 0 26px;
+    }
+    .prices__box {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-between;
+    }
+    .price__option__tarif {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .price__option__cost {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .price__option__free , .price__option {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .prices__options {
+        flex-direction: column;
+    }
+    .prices__option__offers {
+        max-width: 288px;
+        height: 400px;
+    }
+    .prices__option__offers:not(:last-child) {
+        margin-bottom: 27px;
+    }
 }

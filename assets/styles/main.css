@@ -18,3 +18,16 @@
     padding: 0 15px;
     margin: 0 auto;
 }
+input , textarea {
+    outline: none;
+}
+@media (max-width: 1024px) {
+    .content {
+        padding: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .content {
+        padding: 16px;
+    }
+}
